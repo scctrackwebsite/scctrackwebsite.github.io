@@ -351,6 +351,11 @@ form {
 	
 }
 
+.align_text_right {
+	text-align:right;
+	
+}
+
 .incr_text_size_1 {
 	
 	font-size:1.1em;
