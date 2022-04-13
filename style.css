@@ -1,0 +1,725 @@
+header {
+	
+	color: #BCE954;
+	font-family: Arial;
+	text-align: left;
+
+	/*
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	*/
+	
+}
+
+html {
+	
+	font-size:1.25em;
+	
+	/*
+	margin-left:-100px;
+	margin-right:-100px;
+	*/
+}
+
+head {
+
+	/*background-color: black;*/
+	color: #BCE954; /*slimegreen*/
+	font-family: Arial;
+	font-size:1em;
+
+	
+	/*
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	*/
+	
+}
+
+
+div p {
+	
+	text-align:center;
+	
+}
+
+body {
+	
+	/*background-color: black;*/
+	color: #BCE954; /*slimegreen*/
+	font-family: Arial;
+	font-size:100%;
+	background-color: black;
+	/*	
+	background-image:url(images/shamrock_cropped.jpg);
+	background-repeat: no-repeat;
+    background-position: bottom right; 
+	background-attachment:scroll;
+	*/
+
+}
+
+#wrapper {
+	
+	width:960px;
+	height:150px;
+	margin:0 auto;
+
+}
+
+#banner_format {
+	
+	width:960px;
+	height:150px;
+	margin:0 auto;
+	
+}
+
+
+.banner_format {
+	
+	width:960px;
+	height:150px;
+	margin:0 auto;
+	
+}
+
+	/*
+	background-image:url(images/shamrock_cropped.jpg);
+	background-repeat: no-repeat;
+    background-position: right; 
+	*/
+	
+	/*
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	*/
+
+
+nav {
+	
+	/*background-color: black;*/
+	color: white;
+	font-family: Arial;
+	text-align:left;
+	
+}
+
+h1 {
+	
+	/*background-color: black;*/
+	color: white;
+	font-family: Arial;
+	/*font-size:1em;*/
+	font-weight:600;
+	font-size: 2em;
+	text-align: left;
+
+	/*
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	*/
+	
+}
+
+
+h2 {
+	
+	/*background-color: black;*/
+	color: yellow; /* yellow color */
+	font-family: Arial;
+	/*font-size:1em;*/
+	font-weight:600;	
+	font-size: 1.5em;
+	text-align:left;
+	
+}
+
+p {
+	
+	/*background-color: black;*/
+	color: #BCE954; /* slimegreen */
+	font-family: Arial;
+	font-size: 1.05em;
+	text-align: left;
+
+
+	/*
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	*/
+	
+}
+
+footer {
+
+	/* background-color: black; */	
+	font-family: Arial;
+	font-style: italic;
+	font-size: .9em;
+	text-align:left;
+	padding:.95em;
+	
+	/*
+	background-image:url(images/shamrock_cropped.jpg);
+	background-repeat: no-repeat;
+    background-position: 90% 10%; 
+	background-attachment:scroll;
+	*/
+
+	
+	
+	/*
+	text-align: center;	
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	*/
+	
+}
+
+ol {
+	
+	/*background-color:black;*/
+	color:#FFA500; /* darkolivegreen3 */
+	font-family: Arial;
+	font-size:1.05em;
+	/*font-style:normal;*/
+	text-align:left;
+
+}
+
+ol span {
+	
+	/*background-color:black;*/
+	color:#BCE954; /* slimegreen */
+	font-family: Arial;
+	font-size:1.05em;
+	/*font-style:normal;*/
+	text-align:left;
+
+}
+
+ul {
+	
+	/*background-color: black;*/
+	color:#FFA500; /* darkolivegreen3 */
+	font-family: Arial;
+	font-size: 1em;
+	/*font-style:normal;*/	
+	text-align:left;
+
+
+}
+
+
+li {
+	
+	/*background-color: black;*/
+	color:#FFA500; /* darkolivegreen3 */
+	font-family: Arial;
+	font-size: 1em;
+	/*font-style:normal;*/
+	text-align:left;
+
+
+}
+
+
+.special  {
+
+    border-color:#FFF;
+    border-width:2px;
+    border-style:solid;
+    background-color:#ccf;
+    padding:25px;
+    padding-left:100px;               
+    margin:30px;
+	/*
+    background-image:url(images/shamrock_cropped.jpg);
+    background-repeat:no-repeat;
+	background-position:top right;
+	*/
+	
+}
+
+.br1 {
+	display: block;
+	margin-bottom: 1em;
+}
+  
+.br2 {
+	display: block;
+	margin-bottom: 2em;
+}
+  
+.br3 {
+	display: block;
+	margin-bottom: 3em;
+}
+
+.br4 {
+	display: block;
+	margin-bottom: 4em;
+}
+
+.br5 {
+	display: block;
+	margin-bottom: 5em;
+}
+
+.br6 {
+	display: block;
+	margin-bottom: 6em;
+}
+
+.br7 {
+	display: block;
+	margin-bottom: 7em;
+}
+
+.br8 {
+	display: block;
+	margin-bottom: 8em;
+}
+
+.br9 {
+	display: block;
+	margin-bottom: 9em;
+}
+
+.br10 {
+	display: block;
+	margin-bottom: 10em;
+}
+	
+	
+
+.center_div {
+	
+	margin: 0 auto;
+	width:100px;
+	
+}
+
+
+.float_pic {
+	
+	float:left;
+	
+}
+
+
+/*
+form {
+
+	background-color: black;
+	color: #cd9b1d;  
+	font-family:"Tahoma, sans-serif";
+	font-size: 1.05em;	
+}
+*/
+
+.list_edit {
+	
+	/*background-color: black;*/
+	color: #cd9b1d; 
+	font-family: Arial;
+	font-size: 1.05em;
+	font-style:normal;	
+	
+}
+
+.align_text_left {
+	
+	text-align:left;	
+	
+}
+
+.align_text_right {
+	text-align:right;
+	
+}
+
+.incr_text_size_1 {
+	
+	font-size:1.1em;
+
+}
+
+.incr_text_size_2 {
+	
+	font-size:1.2em;
+
+}
+
+.incr_text_size_3 {
+	
+	font-size:1.3em;
+
+}
+
+.incr_text_size_4 {
+	
+	font-size:1.4em;
+
+}
+
+.incr_text_size_5 {
+	
+	font-size:1.5em;
+
+}
+
+
+#incr_text_size_1 {	
+
+	font-size:1.1em;
+
+}
+
+#incr_text_size_2 {
+	
+	font-size:1.2em;
+
+}
+
+#incr_text_size_3 {	
+
+	font-size:1.3em;
+
+}
+
+#incr_text_size_4 {	
+
+	font-size:1.4em;
+
+}
+
+#incr_text_size_5 {	
+
+	font-size:1.5em;
+
+}
+
+a {
+
+    text-decoration:none;  
+	font-size: .9em;
+
+}
+
+a:link {
+
+    color:#00FFFF;
+	font-size:1.01em;
+	
+
+
+}
+
+a:visited {
+
+    color:#00FFFF;
+
+}
+
+a:hover, a:focus {
+
+    color:#FFF8DC;
+	/*
+    background-color:#xxxxxx;
+	*/
+}
+
+a:active {
+
+    color:#990000;
+	/*
+    background-color:#xxxxxx;
+	*/
+}
+
+
+.center_text  {
+
+    /*background-color:black;*/
+	text-align:center;
+ 
+}
+
+
+.center {
+	
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	
+}
+
+.text_border {
+	
+	/*background-color:black;*/
+	border-width:2px;
+	border-style:solid;
+	border-color:green;
+	border-spacing:2px;
+	padding:.2em;
+	margin:.1em;
+	
+}
+
+.text_border_table {
+	
+	/*background-color:black;*/
+	border-width:4px;
+	border-style:solid;
+	border-color:green;
+	border-spacing:2px;
+	padding:.2em;
+	margin:.1em;
+	
+}
+
+#table_4col_eq {
+  table-layout: fixed ;
+  width: 100% ;
+  border-collapse: collapse ;
+  border: 1px black solid ;
+}
+#table_4col_eq_td {
+  width: 50% ;
+  border: 1px black solid ;
+  padding: 10px ;
+}
+#table_4col_eq_caption {
+  font-style: italic ;
+} 
+
+.text_border_center {
+	
+	/*background-color:black;*/
+	border-width:2px;
+	border-style:solid;
+	border-color:green;
+	border-spacing:2px;
+	padding:.2em;
+	margin:0 auto;
+	text-align:center;
+
+}
+
+/*
+.padding_30px {
+	
+	
+
+}
+*/
+
+#center_text  {
+
+    /*background-color:black;*/
+	text-align:center;
+	
+}
+
+#center {
+	
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	
+}
+
+
+.box {       
+    /*background-color:black;*/
+    color:#cd9b1d;
+    font-weight:bold;
+    margin:120px auto;
+    height:150px;        
+    width: 200px;
+
+}
+
+/* Class Colors Below */
+
+.color_black {color:black;} /* black color */
+.color_green {color:green;} /* green color */
+.color_purple {color:purple;} /* purple color */
+.color_red {color:red;} /* red color */
+.color_orange {color:orange;} /* orange color */
+.color_yellow {color:yellow;} /* yellow color */
+.color_blue {color:blue;} /* blue color */
+.color_brown {color:#cd9b1d;} /* brown color */
+.color_light_orange {color:#FE9A2E;} /*light orange color */
+.align_text_center {text-align:center;} /* text align center */
+.margin_left_auto {margin-left:auto;} /* margin-left auto */
+.margin_right_auto {margin-right:auto;} /* margin-right auto */
+.margin_top_auto {margin-top:auto;} /* margin-top auto */
+.margin_bottom_auto {margin-bottom:auto;} /* margin-bottom auto */
+.margin_0_auto {margin:0 auto;} /* zero margin auto */
+
+
+/* other classes */
+
+.center_text {text-align:center;}
+
+/* 
+
+Color codes if needed:
+
+.color_black {color:#000000} black color 
+.color_green {color:#006600} green color
+.color_purple {color:#006600cc} purple color
+.color_red {color:#990000} red color
+.color_blue {color:#0000FF} blue color
+.color_cyan {color:#00FFFF} cyan color
+.color_cornsilk {color:#FFF8DC} cornsilk color
+.color_medium_orchid {color:#ba55d3} medium orchid
+*/
+
+
+ /* Dropdown Button - Single - CSS3 - Matches Javascript "drop_down_menu_single_button.js" */
+ /*
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+*/
+/* Dropdown button on hover & focus */
+/*
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+/* The container <div> - needed to position the dropdown content */
+/*
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+/*
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+/*
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+/*
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+/*
+.show {display:block;} 
+
+/* End of DROP DOWN MENU SINGLE BUTTON */
+
+/* DROPDOWN IN TOPNAV - DROPDOWN MENU IN NAVBAR */
+
+ /* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: green;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+} 
