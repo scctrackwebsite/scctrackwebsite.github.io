@@ -12,11 +12,16 @@
     <meta name="description" content="T.R.A.C.K. Accounting Page">
 	<!-- link to .css -->
 	<link rel="stylesheet" href="style.css">
-	<link rel="icon" type="image/x-icon" href="/images/favicon.ico">	
-	<!-- style tag -->
-	<style>
-		p em {color:#006600}
-	</style>
+	<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+	<!-- script source -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<!-- script function -->
+	<script>
+		$(document).ready(function () {
+			$('div.hidden').fadeIn(1000).removeClass('hidden');
+		});
+	<!-- script close -->
+	</script>	
 <!-- end of head tag -->
 </head>
 <!-- start of body tag -->
@@ -256,11 +261,14 @@ Writing
 </header>
 <!-- main tag -->
 <main>
-	<div align="center">
-		<h1 class="center_text"> T.R.A.C.K. Accounting Page </h1>
+	<!-- header1.01 -->
+	<h1 class="center_text"> T.R.A.C.K. Accounting Page </h1>
+	<!-- div_main_pic div -->
+	<div align="center" class="hidden" id="div_main_pic">
+		<!-- main pic -->
 		<img class="center" src="https://p0.pxfuel.com/preview/970/895/709/income-tax-calculator-accounting-financial.jpg" alt="A picture of a calculator, books, and a pen.">
-			<!-- start/end paragraph tag -->
-			<p style="font-size:0.8em"><a style="font-size:0.8em" href="https://p0.pxfuel.com/preview/970/895/709/income-tax-calculator-accounting-financial.jpg"> Source:Pxfuel </a></p>
+		<!-- start/end paragraph tag -->
+		<p style="font-size:0.8em"><a style="font-size:0.8em" href="https://p0.pxfuel.com/preview/970/895/709/income-tax-calculator-accounting-financial.jpg"> Source:Pxfuel </a></p>
 	</div>
 	<span class="br2"></span>
 	<div align="center">
@@ -312,8 +320,11 @@ Writing
 </main>
 <!-- start footer -->
 <footer>
+<!-- break size 2em -->
 <span class="br2"></span>
+<!-- back to top -->
 <center><a href="#top" class="text_border" style="display:inline">Back to top</a>
+<!-- break size 2em -->
 <span class="br2"></span>
 <!-- start para -->
 <p style="color:yellow" class="center_text">
@@ -323,8 +334,10 @@ Copyright &copy; 2022. All rights reserved.
 </p>
 <!-- end footer -->
 </footer>
-<!-- end of body tag -->
+<!-- end of div tag -->
 </div>
+<!-- scripts in footer -->
+<!-- end body tag -->
 </body>
 <!-- end of html tag -->
 </html>
