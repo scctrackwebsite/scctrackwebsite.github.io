@@ -13,6 +13,12 @@
 	<!-- link to style.css -->
 	<link rel="stylesheet" href="style.css"> 
 	<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script>
+		$(document).ready(function () {
+			$('div.hidden').fadeIn(1000).removeClass('hidden');
+		});
+	</script>
 <!-- end of head tag -->
 </head>
 <!-- start of body tag -->
@@ -257,7 +263,7 @@ Writing
 	<!-- header 1 tag -->
 	<h1 class="center_text"> T.R.A.C.K. Links Page </h1>
 	<!-- Copied from colleges.html to supply important links -->
-	<div class="center_text">
+	<div class="center_text hidden" id="div_colleges">
 		<table>
 			<tr>
 				<td><a href="https://cabrillo.edu"> Cabrillo College </a>
@@ -309,7 +315,7 @@ Writing
 	<center><a href="#top" class="text_border" style="padding:3px;">Back to top</a>	
 	<br>
 	<!-- start/end header 2 tag -->
-	<div class="center_text">
+	<div class="center_text" id="div_header2_1">
 		<h2 class="center_text" style="font-weight:bold;"> Animals </h2>
 		<p class="center_text""> Adoption, Wildlife and Zoos: </p>
 		<!-- links -->

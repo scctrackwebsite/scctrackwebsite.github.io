@@ -49,6 +49,12 @@ div p {
 	
 }
 
+div.hidden {
+	
+	display:none
+
+}
+
 body {
 	
 	/*background-color: black;*/
