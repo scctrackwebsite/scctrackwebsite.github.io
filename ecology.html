@@ -13,6 +13,13 @@
 	<!-- link to style.css -->
 	<link rel="stylesheet" href="style.css"> 
 	<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+	<!-- jQuery reference -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script>
+		$(document).ready(function () {
+			$('div.hidden').fadeIn(1000).removeClass('hidden');
+		});
+	</script>
 	<!-- style tag -->
 <!-- end of head tag -->
 </head>
@@ -253,6 +260,8 @@ Writing
 </header>
 <!-- main tag -->
 <main>
+<!-- div class hidden -->
+<div class="hidden">
 	<!-- div tag -->
 	<h1 class="center_text"> T.R.A.C.K. Ecology Page </h1>
 	<br>
@@ -263,8 +272,10 @@ Writing
 	</div>
 	<br>
 <!-- end main -->
+</div>
 </main>
 <!-- start footer -->
+<div class="hidden">
 <footer>
 <span class="br2"></span>
 <center><a href="#top" class="text_border" style="display:inline">Back to top</a>
@@ -277,6 +288,7 @@ Copyright &copy; 2022. All rights reserved.
 </p>
 <!-- end footer -->
 </footer>
+</div>
 <!-- end of body tag -->
 </div>
 </body>

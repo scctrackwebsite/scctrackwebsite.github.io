@@ -13,6 +13,13 @@
 	<!-- link to style.css -->
 	<link rel="stylesheet" href="style.css"> 
 	<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+	<!-- jQuery reference -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script>
+		$(document).ready(function () {
+			$('div.hidden').fadeIn(1000).removeClass('hidden');
+		});
+	</script>
 <!-- end head tag -->
 </head>
 <!-- start body tag -->
@@ -252,6 +259,8 @@ Writing
 </header>
 <!-- main tag -->
 <main>
+<!-- div class hidden -->
+<div class="hidden">
 	<!-- header 1 tag -->
 	<h1 class="center_text"> Welcome to T.R.A.C.K. </h1>
 		<!-- header 2 tag -->
@@ -274,8 +283,10 @@ Writing
 				or technology; but the site can be useful to all.
 			</p> 
 <!-- end main -->
+</div>
 </main>
 <!-- start footer -->
+<div class="hidden">
 <footer>
 <!-- start para -->
 <p id="center_text" style="color:yellow">
@@ -311,6 +322,7 @@ window.onload = function(){
 -->
 <!-- end footer -->
 </footer>
+</div>
 <!-- end of body tag -->
 </div>
 </body>

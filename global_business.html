@@ -13,6 +13,13 @@
 	<!-- link to style.css -->
 	<link rel="stylesheet" href="style.css"> 
 	<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+	<!-- jQuery reference -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script>
+		$(document).ready(function () {
+			$('div.hidden').fadeIn(1000).removeClass('hidden');
+		});
+	</script>
 <!-- end of head tag -->
 </head>
 <!-- start of body tag -->
@@ -252,6 +259,8 @@ Writing
 </header>
 <!-- main tag -->
 <main>
+<!-- div class hidden -->
+<div class="hidden">
 	<div align="center">
 		<h1 class="center_text"> T.R.A.C.K. Global Business Page </h1>
 		<img class="center" src="https://p0.piqsels.com/preview/1000/133/257/globalization-global-network-abstract.jpg" alt="A picture of the world continents with a city background.">
@@ -291,8 +300,10 @@ Writing
 	</div>
 	<span class="br3"></span>
 <!-- end main -->
+</div>
 </main>
 <!-- start footer -->
+<div class="hidden">
 <footer>
 <!-- back to top -->
 <center><a href="#top" class="text_border" style="padding:3px;">Back to top</a>	
@@ -305,6 +316,7 @@ Copyright &copy; 2022. All rights reserved.
 </p>
 <!-- end footer -->
 </footer>
+</div>
 <!-- end of body tag -->
 </div>
 </body>
