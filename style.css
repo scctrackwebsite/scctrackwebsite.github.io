@@ -246,6 +246,18 @@ li {
 
 }
 
+label, input {
+	
+    display: flex;
+	
+}
+
+label {
+	
+    margin-bottom: 10px;
+	
+}
+
 
 .special  {
 
