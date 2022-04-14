@@ -13,14 +13,23 @@
 	<!-- link to .css -->
 	<link rel="stylesheet" href="style.css">
 	<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-	<!-- style tag
+	<!-- jQuery reference -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script>
+		$(document).ready(function () {
+			$('div.hidden').fadeIn(1000).removeClass('hidden');
+		});
+	</script>
+	<!-- style tag -->
 	<style> 
 		ol.first_ol_text { 
 		margin-left:auto;
 		margin-right:auto;
 		width: 10em
 		}
-	</style> end style tag -->
+	<!-- end style tag -->
+	</style> 
+<!-- end head -->
 </head>
 <!-- body tag below -->
 <body>
@@ -261,14 +270,13 @@ Writing
 </header>
 <!-- main tag -->
 <main>
+<!-- div class hidden -->
+<div class="hidden">
 	<!-- header 1 tag -->
 	<h1 class="center_text"> T.R.A.C.K. About Page </h1>
 		<!--body tag here-->
-		<p class="align_text_left"> Hello fellow students!  My name is DJ.  I am a college and high school  
-		tutor, personal trainer, IT worker, and lifelong college student. I have nearly six associates 
-		degrees in majors such as liberal arts, kinesiology, business and computer information systems 
-		from Cabrillo College.  I also transferred to San Jose State University to complete my upper-level general education. Now I hope to finish my BBA in Information Systems Management from Brandman Univeristy by the Summer of 2022. I realized that the medical and technology fields are growing and in constant need of tutoring and online reference. I created this website to assist my tutees and other students with similar scholastic pursuits. </p>
-		<p class="align_text_left" style="color:orange"> * Remember that this website is intended for educational purposes only.  The site was created by a college student who wishes to share their research, notes, hints, examples, and findings with others to help other students learn material faster and remember the material longer.  Please request information from a professional, academic, or government source before making any important health, financial, legal, or technical decisions.
+		<p class="align_text_left"> Hello fellow students!  My name is DJ.  I am a college and high school tutor, personal trainer, IT worker, and lifelong college student. I have nearly six associates degrees in majors such as liberal arts, kinesiology, business and computer information systems from Cabrillo College.  I also transferred to San Jose State University to complete my upper-level general education. Now I hope to finish my BBA in Information Systems Management from Brandman Univeristy by the Summer of 2022. I realized that the medical and technology fields are growing and in constant need of tutoring and online reference. I created this website to assist my tutees and other students with similar scholastic pursuits. </p>
+		<p class="align_text_left" style="color:orange"> *Remember that this website is intended for educational purposes only.  The site was created by a college student who wishes to share their research, notes, hints, examples, and findings with others to help other students learn material faster and remember the material longer.  Please request information from a professional, academic, or government source before making any important health, financial, legal, or technical decisions.</p>
 		<!--headline 2 tag here-->
 	<h2 style="text-align:center;"> Subjects currently covered on this website: </h2>
 		<div class="center_text" style="line-height:1.25em">
@@ -364,9 +372,12 @@ Writing
 			<li> <a href="https://hartnell.edu"> Hartnell College </a> </li>
 			<li> <a href="https://brandman.edu"> Brandman University </li>
 		</ul>	
+	<!-- end of headlines -->
 <!-- end main -->
+</div>
 </main>
 <!-- start footer -->
+<div class="hidden">
 <footer>
 <span class="br2"></span>
 <center><a href="#top" class="text_border" style="display:inline">Back to top</a>
@@ -379,6 +390,7 @@ Copyright &copy; 2022. All rights reserved.
 </p>
 <!-- end footer -->
 </footer>
+</div>
 <!-- end of body tag -->
 </div>
 </body>
